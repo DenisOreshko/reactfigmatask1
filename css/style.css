@@ -51,7 +51,11 @@
     left:50%;    
     font-size: 30px;
   }
-  
+  .title_about{
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
   .block-1{
     text-align:center;
     position:relative;
@@ -62,6 +66,7 @@
     margin-left:-300px;
   }
   
+  
   .inline-2{
     display:inline;
     position:absolute; 
@@ -69,7 +74,9 @@
     margin-left:20px;
     margin-top: 30px;
   }
-
+.inline-2 img{
+    margin-bottom: 20px;
+  }
   .block-2{
     text-align:center;
     position:relative;
