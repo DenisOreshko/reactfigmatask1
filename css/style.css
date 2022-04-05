@@ -23,25 +23,33 @@
     color: white;
     height:260px;
     position: relative;
+    text-align:center;  
   }
   
   .header__links a{
     color: white;
     text-decoration: none;
+    margin-right: 50px;
+    font-weight: lighter;
+  }
+  .logo_header_img{
+    margin-top: -15px;
   }
   .menu{
-    position: absolute;
-    max-width:400px; 
-    margin-left:100px;
-    margin-top:50px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    max-width:550px; 
+    margin-left:150px;
+    padding-top: 60px;    
   }
   
   .name{
     position: absolute;
-    max-width:150px; 
+    max-width:250px; 
     top:50%;
-    left:50%;
-    text-align:center;  
+    left:50%;    
+    font-size: 30px;
   }
   
   .block-1{
@@ -152,14 +160,27 @@
 .footer{
   background-color:white;
   clear:both;
-  height: 150px;
+  max-height: 150px;
   width: 100%;
   text-align: center;
   color:black;
 }
-.footer img{
 
-}
 .menu_footer{
-  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin-left:40px;
+}
+
+.footer_header__links a{
+  color:black;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.footer img{
+  margin-top: -15px;
+  margin-bottom: 30px;
 }
