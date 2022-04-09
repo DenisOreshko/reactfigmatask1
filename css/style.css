@@ -18,7 +18,7 @@
     background-color: rgba(0, 0, 0, .5);
 }
   .header{
-    background-image:url(/images/coffee-shop-1209863_1920.png);
+    background-image:url(./images/coffee-shop-1209863_1920.png);
     background-color:gray;
     color: white;
     height:260px;
@@ -65,7 +65,10 @@
     display:inline;
     margin-left:-300px;
   }
-  
+  .inline-1 img{
+    width: 332px;
+    height: 415px;
+  }
   
   .inline-2{
     display:inline;
@@ -109,6 +112,7 @@
     background-color:white;
     height: 30px;
     width: 75px;
+    cursor: pointer;
   }
 
   .filters_buttons{
